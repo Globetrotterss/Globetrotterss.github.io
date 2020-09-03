@@ -1,0 +1,80 @@
+p {
+    color: wheat;
+}
+
+a {
+    color: wheat;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+header {
+    color: wheat;
+    background-color: black;
+    text-align: center;
+}
+
+footer {
+    background-color: grey;
+    color: wheat;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: right;
+}
+
+nav {
+    text-align: center;
+}
+
+main {
+    color: wheat;
+    background-color: black;
+    text-align: center;
+}
+
+.icon-bar {
+    width: 100%;
+    background: transparent;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: wheat;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: grey;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.card {
+    background-size: 100% 100%;
+    padding: 3px;
+    width: 50%;
+    height: 500px;
+    margin-left: 25%;
+    /*margin-right: 50%;*/
+    color: black;
+}
+
+.card1 {
+    background-image: url(./hotel_pics/hotel-dragon-ladakh.jpg);
+}
+
+.card2 {
+    background-image: url(./hotel_pics/the-grand-dragon-ladakh.jpg);
+}

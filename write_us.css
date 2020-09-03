@@ -1,0 +1,62 @@
+header {
+    background-color: black;
+    color: wheat;
+}
+
+footer {
+    background-color: grey;
+    color: wheat;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: right;
+}
+
+nav {
+    text-align: center;
+}
+
+main {
+    color: wheat;
+    background-color: black;
+    text-align: center;
+}
+
+form {
+    /*background-image: url(./my_pics2/IMG_20190218_093220968_HDR.jpg);*/
+    margin-left: 20px;
+    background-size: 100% 100%;
+}
+
+.icon-bar {
+    width: 100%;
+    background: transparent;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: wheat;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: grey;
+}
+
+.active {
+    background-color: green;
+}
+
+#rev {
+    background-color: white;
+    height: 20%;
+    width: 600px;
+    margin-top: 10px;
+}
+
+#space {
+    margin-top: 20px;
+}

@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: chocolate;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.topnav a:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: rgb(76, 175, 80);
+    color: black;
+}
+
+.topnav .icon {
+    display: none;
+}
